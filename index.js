@@ -28,7 +28,7 @@ async function convertPdfToImages(pdfPath) {
 }
 
 async function groqOcr(filePath, model = 'llama-3.2-90b-vision-preview') {
-  const groq = new Groq({ apiKey: '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' });
+  const groq = new Groq({ apiKey: process.env.GROQ_API_KEY});
   const systemPrompt = `
 Convert the provided image into Markdown format. Ensure that all content from the page is included, such as headers, footers, subtexts, images (with alt text if possible), tables, and any other elements.
 
