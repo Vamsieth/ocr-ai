@@ -4,6 +4,6 @@ A simple ocr project < 60 loc that converts PDF or image files to Markdown power
 
 Note: this repo only contains the main script file
 
-[Try here](https://ocrai-replit.app)
+Try here : [ocr-ai](https://ocrai-replit.app)
 
 You can also get the [together.ai](https://www.together.ai/) api key and try it locally.
