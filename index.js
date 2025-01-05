@@ -1,7 +1,3 @@
-/*
-ocr to markdown in < 60 loc using llama-ocr with pdf support
-*/
-
 import { fileURLToPath } from 'url';
 import path from 'path';
 import 'dotenv/config';
