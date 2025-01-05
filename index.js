@@ -56,6 +56,6 @@ async function processFile(filePath, apiKey) {
   });
 }
 
-const filePath = './filepath';
+const filePath = 'filepath';
 const apiKey = process.env.TG_API_KEY;
 processFile(filePath, apiKey);
