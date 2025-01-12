@@ -1,0 +1,21 @@
+{
+    "include": ["server/**/*", "db/**/*"],
+    "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
+    "compilerOptions": {
+      "incremental": true,
+      "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
+      "noEmit": true,
+      "module": "ESNext",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowImportingTsExtensions": true,
+      "moduleResolution": "bundler",
+      "baseUrl": ".",
+      "types": ["node"],
+      "paths": {
+        "@db": ["./db/index.ts"],
+        "@db/*": ["./db/*"]
+      }
+    }
+  }
